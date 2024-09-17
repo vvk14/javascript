@@ -9,7 +9,7 @@ let vivek = "Add some value"; // Declare the variable 'vivek'
 console.log(vivek); // This will log the value of 'vivek' If we only print or console vivek then it gives error because vivek is taken as a varaible so we need to assign some value
 
 let name = "vivek" // string type
-let age = 24 // numeber
+let age = 24 // number
 let status = false // boolean
 
 // bigint 
