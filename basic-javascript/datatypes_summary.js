@@ -23,3 +23,31 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), Heap (NON-primitive)
+
+// Stack
+
+let myName = "vivekpatel";
+let anotherName = myName;
+
+anotherName = "viku";
+
+// console.log(myName);
+// console.log(anotherName);
+
+// Heap 
+// In the below code the variable data gets changed while added new value on that 
+
+let userOne = {
+    name: "vivek",
+    email: "one@google.com"
+}
+let userTwo = userOne;
+userTwo.email = "two@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
